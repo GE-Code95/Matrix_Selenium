@@ -62,7 +62,7 @@ driver.close()
 driver.quit()'''
 
 
-class Base(webdriver.Firefox):
+class BaseExtractor(webdriver.Firefox):
     DPATH = "C:/Program Files (x86)/geckodriver.exe"
     BPATH = "C:/Program Files/Mozilla Firefox/firefox.exe"
 
@@ -70,13 +70,11 @@ class Base(webdriver.Firefox):
         options = Options()
         options.headless = True
         options.binary_location = binary_location
-        #self.options.binary_location = binary_location
-        #self.maximize_window()
-        self.driver = webdriver.Firefox(executable_path=executable_path, firefox_binary=binary_location)
-        super().__init__()
+        super().__init__(executable_path=executable_path, firefox_binary=binary_location, options=options)
+        self.maximize_window()
 
     def previous_page(self):
-        self.driver.execute_script("window.history.go(-1)")
+        self.execute_script("window.history.go(-1)")
 
     def get_data(self):
         raise NotImplementedError()

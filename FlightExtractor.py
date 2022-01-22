@@ -70,7 +70,7 @@ def store_data(json_file):
 
 
 def search(expression):
-    pattern = fr'{expression}'
+    pattern = fr'(\W{expression}\W)'
     dirname = os.getcwd()
     ext = '.json'
     for files in os.listdir(dirname):
@@ -95,7 +95,7 @@ def close():
 def main():
     # flights_json = get_data()
     # store_data(flights_json)
-    search("RY")
+    search("RYANAIR")
 
 
 if __name__ == '__main__':
