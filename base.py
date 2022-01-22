@@ -6,7 +6,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.firefox.options import Options
 import time
 
-options = Options()
+'''options = Options()
 options.headless = True
 options.binary_location = "C:/Program Files/Mozilla Firefox/firefox.exe"
 PATH = "C:/Program Files (x86)/geckodriver.exe"
@@ -59,31 +59,33 @@ for idx, url in enumerate(bbc_hrefs):
                 print(p.text)
 
 driver.close()
-driver.quit()
+driver.quit()'''
 
 
 class Base(webdriver.Firefox):
+    DPATH = "C:/Program Files (x86)/geckodriver.exe"
+    BPATH = "C:/Program Files/Mozilla Firefox/firefox.exe"
 
-    # Add previous
+    def __init__(self, binary_location=BPATH, executable_path=DPATH):
+        options = Options()
+        options.headless = True
+        options.binary_location = binary_location
+        #self.options.binary_location = binary_location
+        #self.maximize_window()
+        self.driver = webdriver.Firefox(executable_path=executable_path, firefox_binary=binary_location)
+        super().__init__()
 
-    def __init__(self, driver_path="C:/Program Files (x86)/chromedriver.exe", teardown=False):
-        self.teardown = teardown
-        self.driver_path = driver_path
-        super(Base, self).__init__()
-
-    @staticmethod
-    def previous():
-        driver.execute_script("window.history.go(-1)")
-
-    def get_page(self, url):
-        self.get(url)
+    def previous_page(self):
+        self.driver.execute_script("window.history.go(-1)")
 
     def get_data(self):
-        pass
+        raise NotImplementedError()
+
+    def store_data(self, file):
+        raise NotImplementedError()
 
     def search(self, expression):
-        pass
+        raise NotImplementedError()
 
     def __exit__(self, exc_type, exc_val, exc_tb):
-        if self.teardown:
-            self.quit()
+        self.quit()
