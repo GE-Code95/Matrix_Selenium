@@ -1,0 +1,13 @@
+from transformers import pipeline
+
+text = '''
+Humans have done an amazing job of reducing malnutrition in the past 70 years or so. The Green Revolution in the 1960s saw a huge leap in agricultural productivity, with yields of crops such as wheat increasing dramatically in some parts of the world, allowing food production to match population growth for most of the 20th Century. While these more intensive farming methods produced some negative environmental impacts, for decades the world saw a year-on-year fall in the total number of people going hungry.
+But this situation has reversed. We are now seeing an increase in human hunger, with 60 million more people undernourished today than in 2014. All at once, agricultural yields have plateaued while environmental problems such as climate change, biodiversity loss and a growing problem with pests and diseases are beginning to impact our supply of food. Meanwhile, not only are there more and more mouths to feed, but those mouths are rightly asking to be fed the right things. The threats to our ability to feed ourselves are unprecedented in many ways. We desperately need another leap in agricultural productivity. 
+Fortunately, there are now a huge variety of new solutions being developed around the world to ensure our food is plentiful, sustainable, nutritious and affordable. Scientists, farmers and businesses are already trying to mitigate our food problems and stave off widespread food insecurity. If we set our minds to it, we can feed the world sustainably by 2050. And this time, we can learn from the mistakes of the past. 
+To understand how things can get better, it helps to paint a picture of where you'd like to get to. A food utopia may sound fanciful and impractical, but in reality, many of us already live there. We can go to a supermarket within a few minutes and access foods which meet our basic nutritional needs, affordably and without worrying about where our next meal will come from. Now we need to figure out how everyone can have access to the types of food the middle and upper levels of rich Western societies take for granted. 
+In the new Follow the Food series, I explore the five utopian dream elements we need our food system to deliver in the next 30 years, looking at on-the-ground examples where people are already attempting to make this happen.
+'''
+
+summarizer = pipeline('summarization')
+
+summarizer(text, max_length=100, min_length=30, do_sample=False)

@@ -3,59 +3,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
+from selenium.common.exceptions import TimeoutException
 import os
 import json
 import re
-
-'''
-url = 'https://www.bbc.com/'
-
-driver.get(url)
-actions = ActionChains(driver)
-
-bbc_hrefs = []
-
-WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.CSS_SELECTOR, "a.block-link__overlay-link")))
-time.sleep(1)
-media_list = driver.find_elements_by_css_selector("a.block-link__overlay-link")
-
-for link in media_list:
-    bbc_hrefs.append(link.get_attribute('href'))
-    print(link.get_attribute('href'))
-
-
-def previous():
-    driver.execute_script("window.history.go(-1)")
-
-
-for idx, url in enumerate(bbc_hrefs):
-    if 'sport' not in url and 'news' in url:
-        driver.get(url)
-        header = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.ID, "main-heading")))
-        data_block = WebDriverWait(driver, 10).until(
-            EC.presence_of_all_elements_located((By.XPATH, "//div[@data-component='text-block']")))
-        print(header.text)
-        for block in data_block:
-            print(block.text)
-        previous()
-    else:
-        if 'sport' not in url and 'news' not in url:
-            driver.get(url)
-            header = WebDriverWait(driver, 10).until(EC.visibility_of_element_located(
-                (By.XPATH, "//div[@tabindex='-1']")))
-
-            intro = WebDriverWait(driver, 10).until(EC.visibility_of_element_located(
-                (By.XPATH, "//div[@class='article__intro b-font-family-serif']")))
-
-            body = WebDriverWait(driver, 10).until(EC.visibility_of_any_elements_located((By.XPATH, "//div/div/p")))
-            print(header.text)
-            print(intro.text)
-
-            for p in body:
-                print(p.text)
-
-driver.close()
-driver.quit()'''
 
 
 class BaseExtractor(webdriver.Firefox):
@@ -72,14 +23,43 @@ class BaseExtractor(webdriver.Firefox):
     def previous_page(self):
         self.execute_script("window.history.go(-1)")
 
+    def get_clickable(self, xpath):
+        WebDriverWait(self, 15).until(
+            EC.element_to_be_clickable((By.XPATH, xpath))).click()
+
     def get_any_elements_by_xpath(self, xpath):
         WebDriverWait(self, 10).until(
             EC.visibility_of_any_elements_located((By.XPATH, xpath)))
 
+    def get_table(self, xpath):
+        WebDriverWait(self, 10).until(
+            EC.visibility_of_element_located((By.XPATH, xpath)))
 
     def get_element_text_by_xpath(self, xpath):
         element = WebDriverWait(self, 10).until(EC.visibility_of_element_located((By.XPATH, xpath)))
         return element.text
+
+    def get_correct_element(self, xpaths):
+        for path in xpaths:
+            try:
+                correct = self.get_element_text_by_xpath(path)
+                if correct is not None:
+                    return correct
+            except TimeoutException:
+                print(f"{path} not found")
+        # Throw exception about not finding any news headers
+        raise
+
+    def get_correct_element_content(self, xpaths):
+        for path in xpaths:
+            try:
+                correct = self.get_elements_presence_by_xpath(path)
+                if correct is not None:
+                    return correct
+            except TimeoutException:
+                print(f"{path} not found")
+        # Throw exception about not finding any news headers
+        raise
 
     def get_elements_text_by_xpath(self, xpath):
         elements = WebDriverWait(self, 10).until(EC.visibility_of_all_elements_located((By.XPATH, xpath)))
