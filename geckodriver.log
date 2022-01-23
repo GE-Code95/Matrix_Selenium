@@ -848,3 +848,190 @@ JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d3
 JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1683759657, line 1: unreachable code after return statement
 JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1683759657 line 1 > eval, line 1: unreachable code after return statement
 JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1683759657 line 1 > eval, line 1: unreachable code after return statement
+1642928665571	geckodriver	INFO	Listening on 127.0.0.1:56497
+1642928668636	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileNf9GQc"
+*** You are running in headless mode.
+1642928670524	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileNf9GQc\\search.json.mozlz4", (void 0)))
+1642928671915	Marionette	INFO	Listening on port 56505
+1642928672326	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:56558
+1642928961881	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileHkbi1k"
+*** You are running in headless mode.
+1642928962201	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileHkbi1k\\search.json.mozlz4", (void 0)))
+1642928963574	Marionette	INFO	Listening on port 56566
+1642928963940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=569308364, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=569308364, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=569308364, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=569308364 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=569308364 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=716400717, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=716400717, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=716400717, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=716400717 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=716400717 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Listening on 127.0.0.1:50808
+1642930505470	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilehMFYUP"
+*** You are running in headless mode.
+1642930505834	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilehMFYUP\\search.json.mozlz4", (void 0)))
+1642930507411	Marionette	INFO	Listening on port 50816
+1642930507522	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gn-web-assets.api.bbc.com/bbcdotcom/assets/20220111-153539-f78def7d5-4.63.0/script/av/emp/adverts.js, line 131: TypeError: window.bbcdotcom.sections is undefined
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+1642930736953	geckodriver	INFO	Listening on 127.0.0.1:50958
+1642930740004	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilePNjfY4"
+1642930740383	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilePNjfY4\\search.json.mozlz4", (void 0)))
+1642930742793	Marionette	INFO	Listening on port 50966
+1642930743183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642930750481	Marionette	INFO	Stopped listening on port 50966
+1642930771429	geckodriver	INFO	Listening on 127.0.0.1:51081
+1642930774491	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilefuK9k7"
+1642930774870	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilefuK9k7\\search.json.mozlz4", (void 0)))
+1642930777282	Marionette	INFO	Listening on port 51089
+1642930777683	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vF3DwGiQdwtNbsVxkFzRL_iZiNaTmsYTTs4lOxRXugY.js line 1 > eval line 310 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vF3DwGiQdwtNbsVxkFzRL_iZiNaTmsYTTs4lOxRXugY.js line 1 > eval line 4797 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vF3DwGiQdwtNbsVxkFzRL_iZiNaTmsYTTs4lOxRXugY.js line 1 > eval line 2758 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vF3DwGiQdwtNbsVxkFzRL_iZiNaTmsYTTs4lOxRXugY.js line 1 > eval line 5701 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1642931066735	Marionette	INFO	Stopped listening on port 51089
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642932849165	geckodriver	INFO	Listening on 127.0.0.1:61677
+1642932852229	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileCRi76G"
+1642932852610	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileCRi76G\\search.json.mozlz4", (void 0)))
+1642932855347	Marionette	INFO	Listening on port 61685
+1642932855432	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642933039888	geckodriver	INFO	Listening on 127.0.0.1:61841
+1642933042951	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileldZO0v"
+1642933043332	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileldZO0v\\search.json.mozlz4", (void 0)))
+1642933045736	Marionette	INFO	Listening on port 61849
+1642933046127	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vF3DwGiQdwtNbsVxkFzRL_iZiNaTmsYTTs4lOxRXugY.js line 1 > eval line 6318 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vF3DwGiQdwtNbsVxkFzRL_iZiNaTmsYTTs4lOxRXugY.js line 1 > eval line 7066 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1642933211417	Marionette	INFO	Stopped listening on port 61849
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ocal\\Temp\\rust_mozprofileAdJhu0\\search.json.mozlz4", (void 0)))
+1642933211754	Marionette	INFO	Listening on port 62171
+1642933212040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vF3DwGiQdwtNbsVxkFzRL_iZiNaTmsYTTs4lOxRXugY.js line 1 > eval line 4255 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1642933312756	Marionette	INFO	Stopped listening on port 62171
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ette	INFO	Listening on port 62431
+1642933283859	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+1642933362544	Marionette	INFO	Stopped listening on port 62431
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642933363886	geckodriver	INFO	Listening on 127.0.0.1:62566
+1642933366942	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileY0CWqN"
+1642933367316	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileY0CWqN\\search.json.mozlz4", (void 0)))
+1642933370050	Marionette	INFO	Listening on port 62574
+1642933370121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1642933431293	Marionette	INFO	Stopped listening on port 62574
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1642933874528	geckodriver	INFO	Listening on 127.0.0.1:62848
+1642933877578	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileokIWab"
+1642933877956	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileokIWab\\search.json.mozlz4", (void 0)))
+1642933880552	Marionette	INFO	Listening on port 62858
+1642933880789	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642933921280	Marionette	INFO	Stopped listening on port 62858
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642933922639	geckodriver	INFO	Listening on 127.0.0.1:62994
+1642933925720	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilen1mHLj"
+1642933926103	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilen1mHLj\\search.json.mozlz4", (void 0)))
+1642933928635	Marionette	INFO	Listening on port 63003
+1642933928897	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642934035310	Marionette	INFO	Stopped listening on port 63003
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+te	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile49sccT\\search.json.mozlz4", (void 0)))
+1642934007620	Marionette	INFO	Listening on port 63189
+1642934007704	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642934035295	Marionette	INFO	Stopped listening on port 63189
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1642934036862	geckodriver	INFO	Listening on 127.0.0.1:63316
+1642934039911	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilehYsQdj"
+1642934040363	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilehYsQdj\\search.json.mozlz4", (void 0)))
+1642934042837	Marionette	INFO	Listening on port 63326
+1642934043091	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642934077152	geckodriver	INFO	Listening on 127.0.0.1:63457
+1642934080228	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilevaSn7u"
+1642934080548	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilevaSn7u\\search.json.mozlz4", (void 0)))
+1642934082828	Marionette	INFO	Listening on port 63466
+1642934082909	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642934102170	geckodriver	INFO	Listening on 127.0.0.1:63592
+1642934105249	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileRjLKDt"
+1642934105616	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileRjLKDt\\search.json.mozlz4", (void 0)))
+1642934107827	Marionette	INFO	Listening on port 63603
+1642934107910	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642934130306	Marionette	INFO	Stopped listening on port 63603
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

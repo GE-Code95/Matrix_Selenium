@@ -2,19 +2,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.firefox.options import Options
-import time
 import os
 import json
 import re
 
-'''options = Options()
-options.headless = True
-options.binary_location = "C:/Program Files/Mozilla Firefox/firefox.exe"
-PATH = "C:/Program Files (x86)/geckodriver.exe"
-driver = webdriver.Firefox(executable_path=PATH, options=options)
-driver.maximize_window()
+'''
 url = 'https://www.bbc.com/'
 
 driver.get(url)
@@ -71,7 +64,7 @@ class BaseExtractor(webdriver.Firefox):
 
     def __init__(self, binary_location=BPATH, executable_path=DPATH):
         options = Options()
-        options.headless = True
+        #options.headless = True
         options.binary_location = binary_location
         super().__init__(executable_path=executable_path, firefox_binary=binary_location, options=options)
         self.maximize_window()
@@ -79,14 +72,24 @@ class BaseExtractor(webdriver.Firefox):
     def previous_page(self):
         self.execute_script("window.history.go(-1)")
 
+    def get_element_text_xpath(self, xpath):
+        element = WebDriverWait(self, 10).until(EC.visibility_of_element_located((By.XPATH, xpath)))
+        return element.text
+
+    def get_elements_text_xpath(self, xpath):
+        elements = WebDriverWait(self, 10).until(EC.visibility_of_all_elements_located((By.XPATH, xpath)))
+        for element in elements:
+            return element.text
+
+
     def get_data(self):
         raise NotImplementedError()
 
-    def search(self, expression, filetype=None):
+    def search(self, expression, filetype):
         pattern = fr'(\W{expression}\W)'
-        dirname = os.getcwd()
+        dir_name = os.getcwd()
         ext = filetype
-        for files in os.listdir(dirname):
+        for files in os.listdir(dir_name):
             if files.endswith(ext):
                 f = open(files)
                 data = json.load(f)

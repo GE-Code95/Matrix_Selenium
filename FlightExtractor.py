@@ -10,7 +10,7 @@ import schedule
 from schedule import every, repeat
 from datetime import datetime
 
-url = 'https://www.iaa.gov.il/en/airports/ben-gurion/flight-board/'
+URL = 'https://www.iaa.gov.il/en/airports/ben-gurion/flight-board/'
 
 
 class FlightExtractor(BaseExtractor):
@@ -20,7 +20,7 @@ class FlightExtractor(BaseExtractor):
 
     @repeat(every(1).minutes)
     def get_data(self):
-        self.get(url)
+        self.get(URL)
         # Get the table headers
         table_headers = WebDriverWait(self, 10).until(
             EC.visibility_of_any_elements_located(
