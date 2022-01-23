@@ -52,9 +52,13 @@ class FlightExtractor(BaseExtractor):
 
 def main():
     flight = FlightExtractor()
+    flight.search('Amsterdam')
+    flight.shutdown()
+    '''
     while True:
         schedule.run_pending()
         time.sleep(1)
+    '''
 
 
 if __name__ == '__main__':

@@ -1842,3 +1842,12 @@ JavaScript error: , line 0: uncaught exception: Object
 1642965332847	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 JavaScript error: , line 0: uncaught exception: Object
 JavaScript warning: https://pagead2.googlesyndication.com/bg/vF3DwGiQdwtNbsVxkFzRL_iZiNaTmsYTTs4lOxRXugY.js line 1 > eval line 1156 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1642975349637	geckodriver	INFO	Listening on 127.0.0.1:57138
+1642975352709	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileWwushJ"
+*** You are running in headless mode.
+1642975353474	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileWwushJ\\search.json.mozlz4", (void 0)))
+1642975354747	Marionette	INFO	Listening on port 57146
+1642975354789	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE

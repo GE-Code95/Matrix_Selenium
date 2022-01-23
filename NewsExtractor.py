@@ -1,8 +1,12 @@
 import time
 from BaseExtractor import BaseExtractor
 from Constants import POSSIBLE_CONTENT_XPATH, POSSIBLE_HEADERS_XPATH
+from Summarizer import summarizer, sentiment_analyzer
 
 URL = 'https://www.bbc.com/'
+
+
+# TODO open news folder and put all parsed data to separate files | Fix search | Add summarizer features
 
 
 class NewsExtractor(BaseExtractor):
@@ -29,6 +33,7 @@ class NewsExtractor(BaseExtractor):
                 content = self.get_correct_element_content(POSSIBLE_CONTENT_XPATH)
                 print(header)
                 print(content)
+
                 self.previous_page()
 
     def search(self, expression, file_type='.txt'):
@@ -38,7 +43,7 @@ class NewsExtractor(BaseExtractor):
 def main():
     news = NewsExtractor()
     news.get_data()
-
+    news.shutdown()
 
 if __name__ == '__main__':
     main()
