@@ -25,20 +25,20 @@ class NewsExtractor(BaseExtractor):
     5) in pictures
     5) ideas
     '''
+
     def get_data(self):
         ignore = ['sport', 'ideas', 'in-pictures']
-        #self.get(URL)
+        self.get(URL)
         bbc_hrefs = []
-        self.get(armadilo)
-        header = WebDriverWait(self, 10).until(EC.visibility_of_element_located((By.XPATH, "//h1")))
-        print(header.text)
-        content = WebDriverWait(self, 10).until(EC.visibility_of_all_elements_located((By.XPATH, "//div/p")))
-        for p in content:
-            print(p.text)
 
         '''
-        WebDriverWait(self, 10).until(
-            EC.visibility_of_element_located((By.CSS_SELECTOR, "a.block-link__overlay-link")))
+        self.get(armadilo)
+        header = self.get_element_text_by_xpath("//h1")
+        print(header)
+        content = self.get_elements_text_by_xpath("//div/p")
+        print(content)
+
+        self.get_bbc_urls()
         time.sleep(1)
         media_list = self.find_elements_by_css_selector("a.block-link__overlay-link")
 
@@ -47,35 +47,35 @@ class NewsExtractor(BaseExtractor):
             print(link.get_attribute('href'))
 
         for url in bbc_hrefs:
-            #if ignore not in url and 'news' in url:
+            # if ignore not in url and 'news' in url:
             if any(domain in url for domain in ignore):
                 print(url)
                 continue
             else:
                 self.get(url)
-                header = WebDriverWait(self, 10).until(EC.visibility_of_element_located((By.ID, "main-heading")))
-                data_block = WebDriverWait(self, 10).until(
-                    EC.presence_of_all_elements_located((By.XPATH, "//div[@data-component='text-block']")))
-                print(header.text)
-                for block in data_block:
-                    print(block.text)
+                header = self.get_element_text_by_id("main-heading")
+                data_block = self.get_elements_presence_by_xpath("//div[@data-component='text-block']")
+                print(header)
+                print(data_block)
                 self.previous_page()
-            else:
-                if 'sport' not in url and 'news' not in url:
-                    self.get(url)
-                    header = WebDriverWait(self, 10).until(EC.visibility_of_element_located(
-                        (By.XPATH, "//div[@tabindex='-1']")))
+            '''
+        self.get_bbc_urls()
+        time.sleep(1)
+        media_list = self.find_elements_by_css_selector("a.block-link__overlay-link")
 
-                    intro = WebDriverWait(self, 10).until(EC.visibility_of_element_located(
-                        (By.XPATH, "//div[@class='article__intro b-font-family-serif']")))
+        for link in media_list:
+            bbc_hrefs.append(link.get_attribute('href'))
+            print(link.get_attribute('href'))
 
-                    body = WebDriverWait(self, 10).until(
-                        EC.visibility_of_any_elements_located((By.XPATH, "//div/div/p")))
-                    print(header.text)
-                    print(intro.text)
-
-                    for p in body:
-                        print(p.text)'''
+        for url in bbc_hrefs:
+            if 'sport' not in url and 'news' not in url:
+                self.get(url)
+                header = self.get_element_text_by_xpath("//div[@tabindex='-1']")
+                intro = self.get_element_text_by_xpath("//div[@class='article__intro b-font-family-serif']")
+                body = self.get_any_elements_by_xpath("//div/div/p")
+                print(header)
+                print(intro)
+                print(body)
 
     def search(self, expression, file_type='.txt'):
         self.search(expression, file_type)

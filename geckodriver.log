@@ -1021,17 +1021,251 @@ console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkErr
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilehYsQdj\\search.json.mozlz4", (void 0)))
 1642934042837	Marionette	INFO	Listening on port 63326
 1642934043091	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1642934077152	geckodriver	INFO	Listening on 127.0.0.1:63457
-1642934080228	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilevaSn7u"
+1642934467554	Marionette	INFO	Stopped listening on port 63326
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+emote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilevaSn7u"
 1642934080548	Marionette	INFO	Marionette enabled
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilevaSn7u\\search.json.mozlz4", (void 0)))
 1642934082828	Marionette	INFO	Listening on port 63466
 1642934082909	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1642934102170	geckodriver	INFO	Listening on 127.0.0.1:63592
-1642934105249	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileRjLKDt"
+1642934467558	Marionette	INFO	Stopped listening on port 63466
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+emote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileRjLKDt"
 1642934105616	Marionette	INFO	Marionette enabled
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileRjLKDt\\search.json.mozlz4", (void 0)))
 1642934107827	Marionette	INFO	Listening on port 63603
 1642934107910	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1642934130306	Marionette	INFO	Stopped listening on port 63603
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1642934428746	geckodriver	INFO	Listening on 127.0.0.1:63887
+1642934431812	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile8mFEEp"
+1642934432142	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile8mFEEp\\search.json.mozlz4", (void 0)))
+1642934434647	Marionette	INFO	Listening on port 63898
+1642934434990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642934467556	Marionette	INFO	Stopped listening on port 63898
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+e file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileGocqzK\\search.json.mozlz4", (void 0)))
+1642934458755	Marionette	INFO	Listening on port 64028
+1642934458907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642934467511	Marionette	INFO	Stopped listening on port 64028
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: "Could not write session state file " (new Error("IOUtils: Shutting down and refusing additional I/O tasks", (void 0), 106)) "DOMException@resource://gre/modules/PromiseWorker.jsm:106:18\npostMessage@resource://gre/modules/PromiseWorker.jsm:342:55\nobserve@resource://gre/modules/AsyncShutdown.jsm:575:16\n"
+JavaScript error: resource://gre/modules/CrashMonitor.jsm, line 201: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642934494741	geckodriver	INFO	Listening on 127.0.0.1:64187
+1642934497828	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilepogpa1"
+1642934498200	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilepogpa1\\search.json.mozlz4", (void 0)))
+1642934500614	Marionette	INFO	Listening on port 64196
+1642934501021	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642934520293	Marionette	INFO	Stopped listening on port 64196
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642934589962	geckodriver	INFO	Listening on 127.0.0.1:64374
+1642934593041	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilezNnx84"
+1642934593422	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilezNnx84\\search.json.mozlz4", (void 0)))
+1642934596078	Marionette	INFO	Listening on port 64384
+1642934596203	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642934819494	Marionette	INFO	Stopped listening on port 64384
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+te	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofiledrvJtJ\\search.json.mozlz4", (void 0)))
+1642934622856	Marionette	INFO	Listening on port 64519
+1642934623102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642934818817	Marionette	INFO	Stopped listening on port 64519
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+te	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilewOheQj\\search.json.mozlz4", (void 0)))
+1642934681745	Marionette	INFO	Listening on port 64675
+1642934681823	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642934821666	Marionette	INFO	Stopped listening on port 64675
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642935049546	geckodriver	INFO	Listening on 127.0.0.1:65002
+1642935052605	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile3KGme0"
+1642935053010	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile3KGme0\\search.json.mozlz4", (void 0)))
+1642935055679	Marionette	INFO	Listening on port 65011
+1642935055775	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642935082680	Marionette	INFO	Stopped listening on port 65011
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642935097509	geckodriver	INFO	Listening on 127.0.0.1:65141
+1642935100592	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilefgR2P6"
+1642935100978	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilefgR2P6\\search.json.mozlz4", (void 0)))
+1642935103797	Marionette	INFO	Listening on port 65150
+1642935104267	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642935202058	Marionette	INFO	Stopped listening on port 65150
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileBTj6f7\\search.json.mozlz4", (void 0)))
+1642935142976	Marionette	INFO	Listening on port 65295
+1642935143070	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642935201918	Marionette	INFO	Stopped listening on port 65295
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0004,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Gil\AppData\Local\Temp\rust_mozprofileJbFWtA\protections.sqlite
+:106:18\npostMessage@resource://gre/modules/PromiseWorker.jsm:342:55\nobserve@resource://gre/modules/AsyncShutdown.jsm:575:16\n"
+JavaScript error: resource://gre/modules/CrashMonitor.jsm, line 201: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+losing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Gil\AppData\Local\Temp\rust_mozprofile8e8RhC\protections.sqlite
+console.error: "Could not write session state file " (new Error("IOUtils: Shutting down and refusing additional I/O tasks", (void 0), 106)) "DOMException@resource://gre/modules/PromiseWorker.jsm:106:18\npostMessage@resource://gre/modules/PromiseWorker.jsm:342:55\nobserve@resource://gre/modules/AsyncShutdown.jsm:575:16\n"
+JavaScript error: resource://gre/modules/CrashMonitor.jsm, line 201: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1642935598098	geckodriver	INFO	Listening on 127.0.0.1:49482
+1642935601154	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile1MRIUr"
+1642935601540	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile1MRIUr\\search.json.mozlz4", (void 0)))
+1642935604318	Marionette	INFO	Listening on port 49492
+1642935604840	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript error: https://static.bbci.co.uk/frameworks/requirejs/0.12.1/sharedmodules/require.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+1642935872159	Marionette	INFO	Stopped listening on port 49492
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+emote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileJY6GrB"
+1642935816211	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileJY6GrB\\search.json.mozlz4", (void 0)))
+1642935818495	Marionette	INFO	Listening on port 49765
+1642935818563	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1642935872149	Marionette	INFO	Stopped listening on port 49765
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642935875569	geckodriver	INFO	Listening on 127.0.0.1:49934
+1642935878624	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilesow3Im"
+1642935879026	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilesow3Im\\search.json.mozlz4", (void 0)))
+1642935881522	Marionette	INFO	Listening on port 49943
+1642935881821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+1642935916804	Marionette	INFO	Stopped listening on port 49943
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642935939700	geckodriver	INFO	Listening on 127.0.0.1:50112
+1642935942737	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileDEWa9R"
+1642935943114	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileDEWa9R\\search.json.mozlz4", (void 0)))
+1642935945678	Marionette	INFO	Listening on port 50123
+1642935945922	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642935968684	geckodriver	INFO	Listening on 127.0.0.1:50321
+1642935971755	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilebiy1ee"
+1642935972136	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilebiy1ee\\search.json.mozlz4", (void 0)))
+1642935974632	Marionette	INFO	Listening on port 50330
+1642935974936	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642936040632	geckodriver	INFO	Listening on 127.0.0.1:64357
+1642936043698	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileXWXWBm"
+*** You are running in headless mode.
+1642936044030	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileXWXWBm\\search.json.mozlz4", (void 0)))
+1642936045416	Marionette	INFO	Listening on port 64366
+1642936045756	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:64858
+1642936753041	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileaBQGsq"
+*** You are running in headless mode.
+1642936753355	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileaBQGsq\\search.json.mozlz4", (void 0)))
+1642936754764	Marionette	INFO	Listening on port 64868
+1642936755113	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gn-web-assets.api.bbc.com/bbcdotcom/assets/20220111-153539-f78def7d5-4.63.0/script/av/emp/adverts.js, line 131: TypeError: window.bbcdotcom.sections is undefined
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Child 31392, MediaDecoderStateMachine #1] WARNING: 1fac4690120 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 31392, MediaDecoderStateMachine #1] WARNING: 1fac2abe040 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 31392, MediaDecoderStateMachine #1] WARNING: 1fac46efc80 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1642936788215	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1642936788743	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vF3DwGiQdwtNbsVxkFzRL_iZiNaTmsYTTs4lOxRXugY.js line 1 > eval line 5180 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 31392, MediaDecoderStateMachine #1] WARNING: 1fac021d200 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 31392, MediaDecoderStateMachine #1] WARNING: 1fabff80660 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 31392, MediaDecoderStateMachine #1] WARNING: 1fabff80660 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 31392, MediaDecoderStateMachine #1] WARNING: 1fabff80660 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 31392, MediaDecoderStateMachine #1] WARNING: 1fabff80040 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 31392, MediaDecoderStateMachine #1] WARNING: 1fabff80040 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 31392, MediaDecoderStateMachine #1] WARNING: 1fabff80040 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367

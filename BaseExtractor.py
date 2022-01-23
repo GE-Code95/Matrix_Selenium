@@ -64,7 +64,7 @@ class BaseExtractor(webdriver.Firefox):
 
     def __init__(self, binary_location=BPATH, executable_path=DPATH):
         options = Options()
-        #options.headless = True
+        options.headless = True
         options.binary_location = binary_location
         super().__init__(executable_path=executable_path, firefox_binary=binary_location, options=options)
         self.maximize_window()
@@ -72,15 +72,33 @@ class BaseExtractor(webdriver.Firefox):
     def previous_page(self):
         self.execute_script("window.history.go(-1)")
 
-    def get_element_text_xpath(self, xpath):
+    def get_any_elements_by_xpath(self, xpath):
+        WebDriverWait(self, 10).until(
+            EC.visibility_of_any_elements_located((By.XPATH, xpath)))
+
+
+    def get_element_text_by_xpath(self, xpath):
         element = WebDriverWait(self, 10).until(EC.visibility_of_element_located((By.XPATH, xpath)))
         return element.text
 
-    def get_elements_text_xpath(self, xpath):
+    def get_elements_text_by_xpath(self, xpath):
         elements = WebDriverWait(self, 10).until(EC.visibility_of_all_elements_located((By.XPATH, xpath)))
-        for element in elements:
-            return element.text
+        lines = list(map(lambda element: element.text, elements))
+        return '\n'.join(lines)
 
+    def get_element_text_by_id(self, id):
+        element = WebDriverWait(self, 10).until(EC.visibility_of_element_located((By.ID, id)))
+        return element.text
+
+    def get_elements_presence_by_xpath(self, xpath):
+        elements = WebDriverWait(self, 10).until(
+            EC.presence_of_all_elements_located((By.XPATH, xpath)))
+        lines = list(map(lambda element: element.text, elements))
+        return '\n'.join(lines)
+
+    def get_bbc_urls(self):
+        WebDriverWait(self, 10).until(
+            EC.visibility_of_element_located((By.CSS_SELECTOR, "a.block-link__overlay-link")))
 
     def get_data(self):
         raise NotImplementedError()
