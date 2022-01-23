@@ -85,7 +85,7 @@ class BaseExtractor(webdriver.Firefox):
     def search(self, expression, filetype=None):
         pattern = fr'(\W{expression}\W)'
         dirname = os.getcwd()
-        ext = '.json'
+        ext = filetype
         for files in os.listdir(dirname):
             if files.endswith(ext):
                 f = open(files)
@@ -101,3 +101,7 @@ class BaseExtractor(webdriver.Firefox):
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.quit()
+
+
+if __name__ == '__main__':
+    pass

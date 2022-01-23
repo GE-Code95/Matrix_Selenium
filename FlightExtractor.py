@@ -2,43 +2,27 @@ import time
 from BaseExtractor import BaseExtractor
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.options import Options
 import pandas as pd
 import itertools
 import json
 import schedule
 from schedule import every, repeat
-import os
 from datetime import datetime
-import re
 
-# TODO - Keep table updated | Search
-# from base import Base
-
-options = Options()
-options.headless = True
-options.binary_location = "C:/Program Files/Mozilla Firefox/firefox.exe"
-PATH = "C:/Program Files (x86)/geckodriver.exe"
-driver = webdriver.Firefox(executable_path=PATH, options=options)
-driver.maximize_window()
 url = 'https://www.iaa.gov.il/en/airports/ben-gurion/flight-board/'
 
 
-def close():
-    driver.close()
-    driver.quit()
-
-    # search("RYANAIR")
-
-
 class FlightExtractor(BaseExtractor):
+
+    def __init__(self):
+        super().__init__()
+
     @repeat(every(1).minutes)
     def get_data(self):
-        driver.get(url)
+        self.get(url)
         # Get the table headers
-        table_headers = WebDriverWait(driver, 10).until(
+        table_headers = WebDriverWait(self, 10).until(
             EC.visibility_of_any_elements_located(
                 (By.XPATH, "//table[@id='flight_board-arrivel_table']//thead//tr//th")))
 
@@ -48,13 +32,13 @@ class FlightExtractor(BaseExtractor):
         # Click on show more until button is gone
         while True:
             try:
-                WebDriverWait(driver, 15).until(
+                WebDriverWait(self, 15).until(
                     EC.element_to_be_clickable((By.XPATH, "//button[@id='next']"))).click()
             except:
                 break
 
         # Get the table rows
-        table = WebDriverWait(driver, 10).until(
+        table = WebDriverWait(self, 10).until(
             EC.visibility_of_element_located((By.XPATH, "//*[@id='flight_board-arrivel_table']")))
 
         # Put the rows into a list
@@ -76,16 +60,17 @@ class FlightExtractor(BaseExtractor):
         with open(f'C:/Users/Gil/PycharmProjects/Matrix_Selenium/ft{dt_string}.json', "w+") as file:
             json.dump(flights_json, file)
 
-        driver.refresh()
+        self.refresh()
 
     def search(self, expression, file_type='.json'):
         self.search(expression, file_type)
 
-    @staticmethod
-    def main():
-        while True:
-            schedule.run_pending()
-            time.sleep(1)
+
+def main():
+    flight = FlightExtractor()
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
 
 
 if __name__ == '__main__':
