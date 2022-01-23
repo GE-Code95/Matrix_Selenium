@@ -659,8 +659,8 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1642880859799	Marionette	INFO	Listening on port 60227
 1642880859927	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-1:60269
-1642880908905	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile3tA3CH"
+Exiting due to channel error.
+::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile3tA3CH"
 *** You are running in headless mode.
 1642880909228	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -686,8 +686,8 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1642881281700	Marionette	INFO	Listening on port 49528
 1642881281852	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-1:49585
-1642881343210	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile3sEyuq"
+Exiting due to channel error.
+::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile3sEyuq"
 *** You are running in headless mode.
 1642881343565	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -704,8 +704,8 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1642881390943	Marionette	INFO	Listening on port 49652
 1642881391180	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-1:49703
-1642881406152	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilepZ49Pf"
+Exiting due to channel error.
+::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilepZ49Pf"
 *** You are running in headless mode.
 1642881406506	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -713,8 +713,8 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1642881408044	Marionette	INFO	Listening on port 49713
 1642881408200	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-1:49753
-1642881419108	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileFbI6pI"
+Exiting due to channel error.
+::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileFbI6pI"
 *** You are running in headless mode.
 1642881419486	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -731,3 +731,120 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1642881430913	Marionette	INFO	Listening on port 49811
 1642881431439	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1642883704256	geckodriver	INFO	Listening on 127.0.0.1:50215
+1642883707341	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileapu3NX"
+*** You are running in headless mode.
+1642883707940	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileapu3NX\\search.json.mozlz4", (void 0)))
+1642883709501	Marionette	INFO	Listening on port 50242
+1642883710032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642883739593	geckodriver	INFO	Listening on 127.0.0.1:50324
+1642883742652	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofiletRCA6c"
+*** You are running in headless mode.
+1642883743310	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofiletRCA6c\\search.json.mozlz4", (void 0)))
+1642883744815	Marionette	INFO	Listening on port 50332
+1642883745348	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Listening on 127.0.0.1:50388
+1642883798027	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileEiYPO3"
+*** You are running in headless mode.
+1642883798378	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileEiYPO3\\search.json.mozlz4", (void 0)))
+1642883799867	Marionette	INFO	Listening on port 50396
+1642883800083	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642883830020	geckodriver	INFO	Listening on 127.0.0.1:50445
+1642883833064	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile1yLuOo"
+*** You are running in headless mode.
+1642883833425	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile1yLuOo\\search.json.mozlz4", (void 0)))
+1642883834886	Marionette	INFO	Listening on port 50462
+1642883835114	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1222572030, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1222572030, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1222572030, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1222572030 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1222572030 line 1 > eval, line 1: unreachable code after return statement
+Exiting due to channel error.
+Listening on 127.0.0.1:50533
+1642883884464	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileHKhCGw"
+*** You are running in headless mode.
+1642883884828	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileHKhCGw\\search.json.mozlz4", (void 0)))
+1642883886451	Marionette	INFO	Listening on port 50541
+1642883886531	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642883921035	geckodriver	INFO	Listening on 127.0.0.1:50584
+1642883924089	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileAsUU6z"
+*** You are running in headless mode.
+1642883924421	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileAsUU6z\\search.json.mozlz4", (void 0)))
+1642883925875	Marionette	INFO	Listening on port 50592
+1642883926153	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+1642884510538	geckodriver	INFO	Listening on 127.0.0.1:50789
+1642884513602	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilejiuNAX"
+*** You are running in headless mode.
+1642884513947	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilejiuNAX\\search.json.mozlz4", (void 0)))
+1642884515199	Marionette	INFO	Listening on port 50797
+1642884515659	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1578835004, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1578835004, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1578835004, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1578835004 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1578835004 line 1 > eval, line 1: unreachable code after return statement
+1642884607002	Marionette	INFO	Stopped listening on port 50797
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642927620527	geckodriver	INFO	Listening on 127.0.0.1:56108
+1642927623614	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileakFP4a"
+*** You are running in headless mode.
+1642927624823	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileakFP4a\\search.json.mozlz4", (void 0)))
+1642927626913	Marionette	INFO	Listening on port 56117
+1642927627331	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=82067950, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=82067950, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=82067950, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=82067950 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=82067950 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1683759657, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1683759657, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1683759657, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1683759657 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1683759657 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1683759657, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1683759657, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1683759657, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1683759657 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1683759657 line 1 > eval, line 1: unreachable code after return statement

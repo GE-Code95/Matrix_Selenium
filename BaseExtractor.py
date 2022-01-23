@@ -5,6 +5,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.firefox.options import Options
 import time
+import os
+import json
+import re
 
 '''options = Options()
 options.headless = True
@@ -79,11 +82,22 @@ class BaseExtractor(webdriver.Firefox):
     def get_data(self):
         raise NotImplementedError()
 
-    def store_data(self, file):
-        raise NotImplementedError()
-
-    def search(self, expression):
-        raise NotImplementedError()
+    def search(self, expression, filetype=None):
+        pattern = fr'(\W{expression}\W)'
+        dirname = os.getcwd()
+        ext = '.json'
+        for files in os.listdir(dirname):
+            if files.endswith(ext):
+                f = open(files)
+                data = json.load(f)
+                search_result = re.search(pattern, data, flags=re.IGNORECASE)
+                if search_result is not None:
+                    print('Match found')
+                else:
+                    print('Match not found')
+                f.close()
+            else:
+                continue
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.quit()
