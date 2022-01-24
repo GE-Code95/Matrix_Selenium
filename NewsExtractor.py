@@ -1,7 +1,7 @@
 import time
 from BaseExtractor import BaseExtractor
 from Constants import POSSIBLE_CONTENT_XPATH, POSSIBLE_HEADERS_XPATH
-from Summarizer import summarizer, sentiment_analyzer
+from Summarizer import summarizer, sentiment_analyzer, text_blob
 import os
 import json
 
@@ -50,8 +50,10 @@ class NewsExtractor(BaseExtractor):
 def main():
     news = NewsExtractor()
     # news.get_data()
-    summarizer(r"C:/Users/Gil/PycharmProjects/Matrix_Selenium/saved_news")
+    #summarizer(r"C:/Users/Gil/PycharmProjects/Matrix_Selenium/saved_news")
     # news.search(expression="Expression", filetype=".json", flag="news")
+    #sentiment_analyzer(r"C:/Users/Gil/PycharmProjects/Matrix_Selenium/saved_news")
+    text_blob(r"C:/Users/Gil/PycharmProjects/Matrix_Selenium/saved_news")
     news.shutdown()
 
 

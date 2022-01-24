@@ -1,6 +1,8 @@
 Matrix Selenium - Home Exam
 ==============================
 
+** In addition to requirements.txt pipelines needs TensorFlow2.0 or PyTorch
+
 A file structure template, development environment and rule set for python home exam project.
 
 News Storage System Documentation – Matrix
@@ -12,7 +14,7 @@ Structure
 The project is designed in an OOP manner like requested.
 Base Class – BaseExtractor.py
 Child Classes – FlightExtractor.py, NewsExtractor.py
-Summarizer.py - Used for NLP model to summarize the BBC articles
+Summarizer.py - Used for NLP model to summarize the BBC articles and sentiment analyzer
 Constants.py - Constants for classifying type of header and content in NewsExtractor.
 
 The BaseExtractor class inherits the Selenium Web driver object (self), so for every class that inherits BaseExtractor

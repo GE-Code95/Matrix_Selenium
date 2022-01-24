@@ -160,7 +160,7 @@ class BaseExtractor(webdriver.Firefox):
         ext = filetype
         for files in os.listdir(dir_name):
             if files.endswith(ext):
-                f = open(files)
+                f = open(f"{dir_name}\\{files}")
                 data = json.load(f)
                 search_result = re.search(pattern, data, flags=re.IGNORECASE)
                 if search_result is not None:
