@@ -148,7 +148,8 @@ class BaseExtractor(webdriver.Firefox):
         """
         raise NotImplementedError()
 
-    def search(self, expression, filetype):
+    @staticmethod
+    def search(expression, filetype):
         """
         by using regex we search for give word or words
         :param expression: the expression to be found

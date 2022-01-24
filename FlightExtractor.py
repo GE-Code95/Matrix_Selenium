@@ -33,6 +33,7 @@ class FlightExtractor(BaseExtractor):
         with open(f'ft{dt_string}.json', "w+") as file:
             json.dump(saved_file, file)
 
+    #@repeat(every(1).minutes)
     def get_data(self):
         self.get(URL)
         # Get the table headers
@@ -60,13 +61,14 @@ class FlightExtractor(BaseExtractor):
         self.store_data(flights_json)
 
 
-def main():
-    limit = 0
-    flight = FlightExtractor()
-    while True:
-        schedule.every(1).minutes.do(flight.get_data)
-        time.sleep(1)
+''' 
+   flight.search(expression='Expression', filetype='.json')
+    flight.shutdown()'''
 
 
 if __name__ == '__main__':
-    main()
+    flight = FlightExtractor()
+    schedule.every(1).minutes.do(flight.get_data)
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
