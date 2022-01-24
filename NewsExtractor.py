@@ -48,12 +48,12 @@ class NewsExtractor(BaseExtractor):
 
 
 def main():
+    path = r"C:/Users/Gil/PycharmProjects/Matrix_Selenium/saved_news"
     news = NewsExtractor()
-    # news.get_data()
-    #summarizer(r"C:/Users/Gil/PycharmProjects/Matrix_Selenium/saved_news")
-    # news.search(expression="Expression", filetype=".json", flag="news")
-    #sentiment_analyzer(r"C:/Users/Gil/PycharmProjects/Matrix_Selenium/saved_news")
-    text_blob(r"C:/Users/Gil/PycharmProjects/Matrix_Selenium/saved_news")
+    news.get_data()
+    summarizer(path)
+    news.search(expression="Expression", filetype=".json", flag="news")
+    sentiment_analyzer(path)
     news.shutdown()
 
 

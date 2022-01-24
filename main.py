@@ -1,6 +1,7 @@
 from FlightExtractor import FlightExtractor
 from NewsExtractor import NewsExtractor
 from Summarizer import summarizer, sentiment_analyzer
+from textblob import TextBlob
 import schedule
 
 if __name__ == '__main__':
@@ -9,24 +10,11 @@ if __name__ == '__main__':
     """
     news = NewsExtractor()
     news.get_data()
+    path = r"C:/Users/Gil/PycharmProjects/Matrix_Selenium/saved_news"
     news.search(expression="Expression", filetype=".json", flag="news")
-    summarizer(r"C:/Users/Gil/PycharmProjects/Matrix_Selenium/saved_news")
-    #sentiment_analyzer()
+    summarizer(path)
+    sentiment_analyzer(path)
     news.shutdown()
-    """
-       Instantiate FlightsExtractor class
-    """
-    flight = FlightExtractor()
-    schedule.every(1).minutes.do(flight.get_data)
-    '''
-    while True:
-        try:
-            schedule.run_pending()
-            time.sleep(1)
-        except KeyboardInterrupt:
-            break
-            '''
-    flight.get_data()
-    flight.search(expression="Expression", filetype=".json", flag="flights")
-    flight.shutdown()
+
+
 
