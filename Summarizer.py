@@ -17,4 +17,4 @@ def sentiment_analyzer(path):
         with open(f'{path}/{file}', 'r') as dict_file:
             content = json.loads(dict_file.read())["Content"]
         testimonial = TextBlob(content)
-        print(testimonial.sentiment)
+        print(file, testimonial.sentiment)

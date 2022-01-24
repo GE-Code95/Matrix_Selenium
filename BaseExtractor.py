@@ -162,7 +162,7 @@ class BaseExtractor(webdriver.Firefox):
             if files.endswith(ext):
                 f = open(f"{dir_name}\\{files}")
                 data = json.load(f)
-                search_result = re.search(pattern, data, flags=re.IGNORECASE)
+                search_result = re.search(pattern, data["Content"] if flag == 'news' else data, flags=re.IGNORECASE)
                 if search_result is not None:
                     print(f'Match found in file {files}')
                 else:

@@ -16,6 +16,7 @@ Base Class – BaseExtractor.py
 Child Classes – FlightExtractor.py, NewsExtractor.py
 Summarizer.py - Used for NLP model to summarize the BBC articles and sentiment analyzer
 Constants.py - Constants for classifying type of header and content in NewsExtractor.
+main.py - create a class instance and use its functions thhen run it
 
 The BaseExtractor class inherits the Selenium Web driver object (self), so for every class that inherits BaseExtractor
 it has all the functionality of the web driver.
@@ -44,6 +45,13 @@ For example in the FlightExtractor I had to make sure I was getting all the tabl
 the show more flights button until its gone then scrape the data.
 In short – for each function I used from Selenium I used WebDriverWait and passed the return value to the class calling
 it for "good practice" and getting the required data.
+
+
+Summarizer and Sentiment Analysis
+------------
+In Summarizer there are 2 functions:
+Summarizer - uses pipelines pre-trained model in order to summarize each article
+Sentiment Analysis - uses TextBlob to identify positive/negative patterns in polarity : 1 is positive and -1 is negative.
 
 --------
 

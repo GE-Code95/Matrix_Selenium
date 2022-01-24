@@ -56,16 +56,3 @@ class FlightExtractor(BaseExtractor):
         # Storing the data extracted
         self.store_data(flights_json)
 
-
-if __name__ == '__main__':
-    flight = FlightExtractor()
-    '''schedule.every(1).minutes.do(flight.get_data)
-
-    while True:
-        try:
-            schedule.run_pending()
-            time.sleep(1)
-        except KeyboardInterrupt:
-            break'''
-    flight.search(expression='Expression', filetype='.json', flag="flights")
-    flight.shutdown()

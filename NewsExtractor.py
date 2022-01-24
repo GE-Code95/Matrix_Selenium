@@ -1,7 +1,7 @@
 import time
 from BaseExtractor import BaseExtractor
 from Constants import POSSIBLE_CONTENT_XPATH, POSSIBLE_HEADERS_XPATH
-from Summarizer import summarizer, sentiment_analyzer, text_blob
+from Summarizer import summarizer, sentiment_analyzer
 import os
 import json
 
@@ -45,17 +45,3 @@ class NewsExtractor(BaseExtractor):
                 data = {"Header": f"{header}", "URL": f"{url}", "Content": f'{content}'}
                 self.store_data(data)
                 self.previous_page()
-
-
-def main():
-    path = r"C:/Users/Gil/PycharmProjects/Matrix_Selenium/saved_news"
-    news = NewsExtractor()
-    news.get_data()
-    summarizer(path)
-    news.search(expression="Expression", filetype=".json", flag="news")
-    sentiment_analyzer(path)
-    news.shutdown()
-
-
-if __name__ == '__main__':
-    main()
