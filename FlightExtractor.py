@@ -11,8 +11,6 @@ import os
 URL = 'https://www.iaa.gov.il/en/airports/ben-gurion/flight-board/'
 
 
-# TODO fix schedule | Check save
-
 class FlightExtractor(BaseExtractor):
 
     def __init__(self):
@@ -29,11 +27,9 @@ class FlightExtractor(BaseExtractor):
         print(path)
         now = datetime.now()
         dt_string = now.strftime("%m-%d-%y_%H-%M-%S")
-        os.chdir(path)
-        with open(f'ft{dt_string}.json', "w+") as file:
+        with open(f'{path}/ft{dt_string}.json', "w+") as file:
             json.dump(saved_file, file)
 
-    #@repeat(every(1).minutes)
     def get_data(self):
         self.get(URL)
         # Get the table headers
@@ -61,14 +57,11 @@ class FlightExtractor(BaseExtractor):
         self.store_data(flights_json)
 
 
-''' 
-   flight.search(expression='Expression', filetype='.json')
-    flight.shutdown()'''
-
-
 if __name__ == '__main__':
     flight = FlightExtractor()
     schedule.every(1).minutes.do(flight.get_data)
     while True:
         schedule.run_pending()
         time.sleep(1)
+    # flight.search(expression='Expression', filetype='.json')
+    # light.shutdown()
