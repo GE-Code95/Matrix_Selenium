@@ -8,9 +8,6 @@ import json
 URL = 'https://www.bbc.com/'
 
 
-# TODO Add summarizer features | Fix some files not saving properly
-
-
 class NewsExtractor(BaseExtractor):
 
     def __init__(self):
@@ -54,7 +51,7 @@ def main():
     news = NewsExtractor()
     # news.get_data()
     summarizer(r"C:/Users/Gil/PycharmProjects/Matrix_Selenium/saved_news")
-    #news.search(expression="Expression", filetype=".json", flag="news")
+    # news.search(expression="Expression", filetype=".json", flag="news")
     news.shutdown()
 
 

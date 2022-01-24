@@ -10,15 +10,9 @@ sample = {"Header": "German Covid protests turn nasty in row over rules and vacc
 
 def summarizer(path):
     summarize = pipeline('summarization')
-    '''for file in path:
-        with open(f'{path}/{file}', 'r') as dict_file:
-            content = json.loads(dict_file.read())[0]
-            print(summarize(content, max_length=100, min_length=30, do_sample=False))
-'''
     for file in os.listdir(path):
-        print(os.listdir(path))
-        with open(file) as json_file:
-            content = json.loads(json_file.read())["Content"]
+        with open(f'{path}/{file}', 'r') as dict_file:
+            content = json.loads(dict_file.read())["Content"]
             print(summarize(content, max_length=100, min_length=30, do_sample=False))
 
 
