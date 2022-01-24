@@ -3,84 +3,45 @@ Matrix Selenium - Home Exam
 
 A file structure template, development environment and rule set for python home exam project.
 
-Getting Started
-------------
-Change the name of folder that contains this whole repo: `python-project-template` -> `{your project name}`  
-
-From within the repo directory, first remove git tracking from the project  
-
-`rm -rf .git`
-
-The project template uses a placeholder name of 'da-project'. Change that name in the following files/directories (relative to the repo root):
-- `da-project/` (change the name of the folder)  
-- `./docker/run/`  
-- `./docker/build/`
-
-If you have not already done so, build the Docker image (you will only need to do this once)
-
-`docker/build`
-
-Run a Docker container:
-
-`docker/run`  
-
-This will open a bash shell within the Docker container. Within the container the 'project' directory on the host machine (as specified as a parameter of `run` above) will map to `/opt/src/` within the container. You can now access the full file structure of this template from within the container.
-
-Run a Jupyter Notebook within Docker container:
-
-`docker/jupyter`
-
-You will need to open the link that is displayed in your terminal.
-
-To exit:
-
-`exit`  
-
-Initialize a new git repository:
-
-`git init`  
-
-Project Organization
+News Storage System Documentation – Matrix
 ------------
 
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── interm         <- Intermediate data that has been transformed
-    │   ├── processed      <- The final, canonical data sets for modeling
-    │   └── raw            <- The original, immutable data dump
-    │
-    ├── guide              <- A set of markdown files with documented best practices, guidelines and rools for collaborative projects
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g
-    │                         `1.0-jqp-initial-data-exploration`
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment
-    │
-    └── da-project         <- Source code for use in this project.
-        │
-        ├── data           <- Scripts to download or generate data
-        │   └── make_dataset.py
-        │
-        ├── features       <- Scripts to turn raw data into features for modeling
-        │   └── build_features.py
-        │
-        ├── models         <- Scripts to train models and then use trained models to make
-        │   │                 predictions
-        │   ├── predict_model.py
-        │   └── train_model.py
-        │
-        └── visualization  <- Scripts to create exploratory and results oriented visualizations
-            └── visualize.py
-    
+Structure
+------------
 
+The project is designed in an OOP manner like requested.
+Base Class – BaseExtractor.py
+Child Classes – FlightExtractor.py, NewsExtractor.py
+Summarizer.py - Used for NLP model to summarize the BBC articles
+Constants.py - Constants for classifying type of header and content in NewsExtractor.
+
+The BaseExtractor class inherits the Selenium Web driver object (self), so for every class that inherits BaseExtractor
+it has all the functionality of the web driver.
+
+Solving the exercise
+------------
+
+In order to solve the extraction problem (getting the data) I used a chrome extension called XPath Helper.
+This extension allows me to write a XPath query and highlights the query results on the website.
+After checking the structure of both website – BBC and IAA I have constructed the relevant functions in the base class
+of my extractor by using get by XPath methods.
+
+Core code components
+------------
+
+BaseExtractor inherits from the web driver and given binaries and web driver path can work properly.
+In order to get the data without errors I had to configure an Options object from the Selenium package.
+Option 1 – Running on headless mode: this enabled my code to run faster as there was no need to load the GUI of Firefox.
+Option 2 – Binary location need to be specified to the options object in order for it to work.
+In addition, for not missing any data I had to make sure the window opened is maximized
+(and prevent errors regarding the extractions).
+
+For every function from the Selenium package, I used the "good practice" WebDriverWait object in order to wait for web
+elements to load properly then extract them.
+For example in the FlightExtractor I had to make sure I was getting all the tables of the flights so I needed to exhaust
+the show more flights button until its gone then scrape the data.
+In short – for each function I used from Selenium I used WebDriverWait and passed the return value to the class calling
+it for "good practice" and getting the required data.
 
 --------
 

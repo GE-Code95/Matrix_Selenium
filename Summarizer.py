@@ -16,8 +16,9 @@ def summarizer(path):
             print(summarize(content, max_length=100, min_length=30, do_sample=False))
 '''
     for file in os.listdir(path):
-        if file.endswith(".json"):
-            content = json.loads(file)["Content"]
+        print(os.listdir(path))
+        with open(file) as json_file:
+            content = json.loads(json_file.read())["Content"]
             print(summarize(content, max_length=100, min_length=30, do_sample=False))
 
 

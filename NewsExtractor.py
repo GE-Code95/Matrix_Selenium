@@ -53,8 +53,8 @@ class NewsExtractor(BaseExtractor):
 def main():
     news = NewsExtractor()
     # news.get_data()
-    summarizer("C:/Users/Gil/PycharmProjects/Matrix_Selenium/saved_news")
-    news.search(expression="Expression", filetype=".json", flag="news")
+    summarizer(r"C:/Users/Gil/PycharmProjects/Matrix_Selenium/saved_news")
+    #news.search(expression="Expression", filetype=".json", flag="news")
     news.shutdown()
 
 
