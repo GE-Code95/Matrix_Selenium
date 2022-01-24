@@ -59,9 +59,13 @@ class FlightExtractor(BaseExtractor):
 
 if __name__ == '__main__':
     flight = FlightExtractor()
-    schedule.every(1).minutes.do(flight.get_data)
+    '''schedule.every(1).minutes.do(flight.get_data)
+
     while True:
-        schedule.run_pending()
-        time.sleep(1)
-    # flight.search(expression='Expression', filetype='.json')
-    # light.shutdown()
+        try:
+            schedule.run_pending()
+            time.sleep(1)
+        except KeyboardInterrupt:
+            break'''
+    flight.search(expression='Expression', filetype='.json', flag="flights")
+    flight.shutdown()

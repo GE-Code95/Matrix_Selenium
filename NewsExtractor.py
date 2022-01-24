@@ -28,7 +28,8 @@ class NewsExtractor(BaseExtractor):
             os.mkdir(path)
         except FileExistsError:
             pass
-        with open(f'{path}/{file_name}.json', "w+") as file:
+        file_path = f'{path}\\{file_name.replace(":", "")}'.replace(" ", "_").replace("?", "")
+        with open(f'{file_path}.json', "w+") as file:
             json.dump(saved_file, file)
 
     def get_data(self):
@@ -40,7 +41,6 @@ class NewsExtractor(BaseExtractor):
         hrefs = [link.get_attribute('href') for link in url_list]
 
         for url in hrefs:
-            print(url)
             if not any(domain in url for domain in ignore):
                 self.get(url)
                 header = self.get_correct_element(POSSIBLE_HEADERS_XPATH)
@@ -49,18 +49,12 @@ class NewsExtractor(BaseExtractor):
                 self.store_data(data)
                 self.previous_page()
 
-    @staticmethod
-    def summarize():
-        directory = os.getcwd()
-        path = directory.join('/saved_news')
-        for file in path:
-            summarizer(file)
-
 
 def main():
     news = NewsExtractor()
-    #news.get_data()
-    news.summarize()
+    # news.get_data()
+    summarizer("C:/Users/Gil/PycharmProjects/Matrix_Selenium/saved_news")
+    news.search(expression="Expression", filetype=".json", flag="news")
     news.shutdown()
 
 

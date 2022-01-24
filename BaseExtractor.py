@@ -44,7 +44,6 @@ class BaseExtractor(webdriver.Firefox):
         WebDriverWait(self, 15).until(
             EC.element_to_be_clickable((By.XPATH, xpath))).click()
 
-
     def get_any_elements_by_xpath(self, xpath):
         """
         find any elements specified by the XPath string
@@ -148,16 +147,16 @@ class BaseExtractor(webdriver.Firefox):
         """
         raise NotImplementedError()
 
-    @staticmethod
-    def search(expression, filetype):
+    def search(self, expression, filetype, flag):
         """
         by using regex we search for give word or words
+        :param flag: which type of directory
         :param expression: the expression to be found
         :param filetype: the type of file we are searching
         :return: match found or not
         """
         pattern = fr'(\W{expression}\W)'
-        dir_name = os.getcwd()
+        dir_name = os.getcwd() + f"/saved_{flag}"
         ext = filetype
         for files in os.listdir(dir_name):
             if files.endswith(ext):
