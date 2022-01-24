@@ -11,6 +11,8 @@ import os
 URL = 'https://www.iaa.gov.il/en/airports/ben-gurion/flight-board/'
 
 
+# TODO fix schedule | Check save
+
 class FlightExtractor(BaseExtractor):
 
     def __init__(self):
@@ -23,20 +25,17 @@ class FlightExtractor(BaseExtractor):
         try:
             os.mkdir(path)
         except FileExistsError:
-            # directory already exists
             pass
         print(path)
         now = datetime.now()
         dt_string = now.strftime("%m-%d-%y_%H-%M-%S")
-        # f'C:/Users/Gil/PycharmProjects/Matrix_Selenium/ft{dt_string}.json'
-        with open(path.join(f'ft{dt_string}.json'), "w+") as file:
+        os.chdir(path)
+        with open(f'ft{dt_string}.json', "w+") as file:
             json.dump(saved_file, file)
 
-    @repeat(every(1).minutes)
     def get_data(self):
         self.get(URL)
         # Get the table headers
-        #table_headers = self.get_any_elements_by_xpath("//table[@id='flight_board-arrivel_table']//thead//tr//th")
         # Put headers names into a list
         table_headers = self.get_any_elements_by_xpath("//table[@id='flight_board-arrivel_table']//thead//tr//th")
         columns = list(map(lambda name: name.text, table_headers))
@@ -59,16 +58,14 @@ class FlightExtractor(BaseExtractor):
         flights_json = df_flights.to_json(orient='table', indent=4)
         # Storing the data extracted
         self.store_data(flights_json)
-        '''now = datetime.now()
-        dt_string = now.strftime("%m-%d-%y_%H-%M-%S")
-        with open(f'C:/Users/Gil/PycharmProjects/Matrix_Selenium/ft{dt_string}.json', "w+") as file:
-            json.dump(flights_json, file)
-        self.refresh()'''
 
 
 def main():
+    limit = 0
     flight = FlightExtractor()
-    flight.get_data()
+    while True:
+        schedule.every(1).minutes.do(flight.get_data)
+        time.sleep(1)
 
 
 if __name__ == '__main__':

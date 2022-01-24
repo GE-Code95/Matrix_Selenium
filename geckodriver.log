@@ -2128,3 +2128,598 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1643019399346	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2045091549, line 1: unreachable code after return statement
 JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2045091549 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:54124
+1643019788445	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilenlcDxk"
+*** You are running in headless mode.
+1643019788769	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilenlcDxk\\search.json.mozlz4", (void 0)))
+1643019790175	Marionette	INFO	Listening on port 54134
+1643019790497	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=570841224, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=570841224, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=570841224 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:54221
+1643019839512	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile01wtao"
+*** You are running in headless mode.
+1643019839862	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile01wtao\\search.json.mozlz4", (void 0)))
+1643019841356	Marionette	INFO	Listening on port 54231
+1643019841600	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1381306198, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1381306198, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1381306198 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:54317
+1643019900025	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilevJbCYW"
+*** You are running in headless mode.
+1643019900352	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilevJbCYW\\search.json.mozlz4", (void 0)))
+1643019901981	Marionette	INFO	Listening on port 54325
+1643019902100	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1901713916, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1901713916, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1901713916 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1643020889932	geckodriver	INFO	Listening on 127.0.0.1:53826
+1643020893004	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilefpP92S"
+*** You are running in headless mode.
+1643020893343	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilefpP92S\\search.json.mozlz4", (void 0)))
+1643020894712	Marionette	INFO	Listening on port 53834
+1643020895049	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Load timeout for modules: bump-4
+http://requirejs.org/docs/errors.html#timeout
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:56500
+1643020937991	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilejdEse5"
+*** You are running in headless mode.
+1643020938341	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilejdEse5\\search.json.mozlz4", (void 0)))
+1643020939799	Marionette	INFO	Listening on port 56508
+1643020940055	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RSjKnk5gG5e-YnqyaokaGBofRBYcmQ35b5mWA3AF7Xg.js line 1 > eval line 3375 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643021228619	geckodriver	INFO	Listening on 127.0.0.1:58463
+1643021231715	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilefibnqi"
+*** You are running in headless mode.
+1643021232041	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilefibnqi\\search.json.mozlz4", (void 0)))
+1643021233459	Marionette	INFO	Listening on port 58472
+1643021233773	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RSjKnk5gG5e-YnqyaokaGBofRBYcmQ35b5mWA3AF7Xg.js line 1 > eval line 5900 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RSjKnk5gG5e-YnqyaokaGBofRBYcmQ35b5mWA3AF7Xg.js line 1 > eval line 453 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RSjKnk5gG5e-YnqyaokaGBofRBYcmQ35b5mWA3AF7Xg.js line 1 > eval line 4692 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643021324783	geckodriver	INFO	Listening on 127.0.0.1:61611
+1643021327848	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileBZlrtB"
+*** You are running in headless mode.
+1643021328180	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileBZlrtB\\search.json.mozlz4", (void 0)))
+1643021329602	Marionette	INFO	Listening on port 61619
+1643021329908	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gn-web-assets.api.bbc.com/bbcdotcom/assets/20220111-153539-f78def7d5-4.63.0/script/av/emp/adverts.js, line 131: TypeError: window.bbcdotcom.sections is undefined
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RSjKnk5gG5e-YnqyaokaGBofRBYcmQ35b5mWA3AF7Xg.js line 1 > eval line 675 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643021651727	geckodriver	INFO	Listening on 127.0.0.1:51995
+1643021654781	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile2pozy1"
+*** You are running in headless mode.
+1643021655128	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile2pozy1\\search.json.mozlz4", (void 0)))
+1643021656606	Marionette	INFO	Listening on port 52003
+1643021656837	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gn-web-assets.api.bbc.com/bbcdotcom/assets/20220111-153539-f78def7d5-4.63.0/script/av/emp/adverts.js, line 131: TypeError: window.bbcdotcom.sections is undefined
+JavaScript error: https://static.bbci.co.uk/frameworks/requirejs/0.12.1/sharedmodules/require.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1643021786372	geckodriver	INFO	Listening on 127.0.0.1:52366
+1643021789448	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileEsK8Z9"
+*** You are running in headless mode.
+1643021789787	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileEsK8Z9\\search.json.mozlz4", (void 0)))
+1643021791171	Marionette	INFO	Listening on port 52374
+1643021791521	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RSjKnk5gG5e-YnqyaokaGBofRBYcmQ35b5mWA3AF7Xg.js line 1 > eval line 2757 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643021859355	geckodriver	INFO	Listening on 127.0.0.1:52613
+1643021862426	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileddDyaJ"
+*** You are running in headless mode.
+1643021862762	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileddDyaJ\\search.json.mozlz4", (void 0)))
+1643021864168	Marionette	INFO	Listening on port 52623
+1643021864491	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+1643021960109	geckodriver	INFO	Listening on 127.0.0.1:52843
+1643021963177	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilevR6QcX"
+*** You are running in headless mode.
+1643021963491	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilevR6QcX\\search.json.mozlz4", (void 0)))
+1643021964934	Marionette	INFO	Listening on port 52851
+1643021965232	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gn-web-assets.api.bbc.com/bbcdotcom/assets/20220111-153539-f78def7d5-4.63.0/script/av/emp/adverts.js, line 131: TypeError: window.bbcdotcom.sections is undefined
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1643022012109	geckodriver	INFO	Listening on 127.0.0.1:52999
+1643022015170	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileJddOSp"
+*** You are running in headless mode.
+1643022015499	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileJddOSp\\search.json.mozlz4", (void 0)))
+1643022016909	Marionette	INFO	Listening on port 53007
+1643022017244	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gn-web-assets.api.bbc.com/bbcdotcom/assets/20220111-153539-f78def7d5-4.63.0/script/av/emp/adverts.js, line 131: TypeError: window.bbcdotcom.sections is undefined
+1643022033066	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+1643022253465	geckodriver	INFO	Listening on 127.0.0.1:53312
+1643022256541	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileixCcLr"
+*** You are running in headless mode.
+1643022256869	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileixCcLr\\search.json.mozlz4", (void 0)))
+1643022258288	Marionette	INFO	Listening on port 53320
+1643022258598	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643022264335	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://static.bbci.co.uk/frameworks/requirejs/0.12.1/sharedmodules/require.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RSjKnk5gG5e-YnqyaokaGBofRBYcmQ35b5mWA3AF7Xg.js line 1 > eval line 847 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RSjKnk5gG5e-YnqyaokaGBofRBYcmQ35b5mWA3AF7Xg.js line 1 > eval line 1706 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://static.bbci.co.uk/frameworks/requirejs/0.12.1/sharedmodules/require.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RSjKnk5gG5e-YnqyaokaGBofRBYcmQ35b5mWA3AF7Xg.js line 1 > eval line 1198 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RSjKnk5gG5e-YnqyaokaGBofRBYcmQ35b5mWA3AF7Xg.js line 1 > eval line 3986 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RSjKnk5gG5e-YnqyaokaGBofRBYcmQ35b5mWA3AF7Xg.js line 1 > eval line 1022 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RSjKnk5gG5e-YnqyaokaGBofRBYcmQ35b5mWA3AF7Xg.js line 1 > eval line 863 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 26192, MediaDecoderStateMachine #1] WARNING: 1f2300ddc80 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 26192, MediaDecoderStateMachine #1] WARNING: 1f22e3c6740 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1643022495958	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1643022496009	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Child 26192, MediaDecoderStateMachine #1] WARNING: 1f22fff3ac0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RSjKnk5gG5e-YnqyaokaGBofRBYcmQ35b5mWA3AF7Xg.js line 1 > eval line 917 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 26192, MediaDecoderStateMachine #1] WARNING: 1f22165d900 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 26192, MediaDecoderStateMachine #1] WARNING: 1f22165d900 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://static.bbci.co.uk/frameworks/requirejs/0.12.1/sharedmodules/require.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://static.bbci.co.uk/frameworks/requirejs/0.12.1/sharedmodules/require.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1643022568378	Marionette	INFO	Stopped listening on port 53320
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643022899367	geckodriver	INFO	Listening on 127.0.0.1:54958
+1643022902451	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile6h27ZJ"
+*** You are running in headless mode.
+1643022902803	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile6h27ZJ\\search.json.mozlz4", (void 0)))
+1643022904175	Marionette	INFO	Listening on port 54966
+1643022904536	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gn-web-assets.api.bbc.com/bbcdotcom/assets/20220111-153539-f78def7d5-4.63.0/script/av/emp/adverts.js, line 131: TypeError: window.bbcdotcom.sections is undefined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RSjKnk5gG5e-YnqyaokaGBofRBYcmQ35b5mWA3AF7Xg.js line 1 > eval line 2236 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643023153145	geckodriver	INFO	Listening on 127.0.0.1:49893
+1643023156199	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileq82go7"
+*** You are running in headless mode.
+1643023156526	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileq82go7\\search.json.mozlz4", (void 0)))
+1643023157913	Marionette	INFO	Listening on port 49901
+1643023158260	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643023272880	geckodriver	INFO	Listening on 127.0.0.1:50072
+1643023275959	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileUpPc3u"
+*** You are running in headless mode.
+1643023276273	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileUpPc3u\\search.json.mozlz4", (void 0)))
+1643023277742	Marionette	INFO	Listening on port 50080
+1643023278014	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643023355284	geckodriver	INFO	Listening on 127.0.0.1:50234
+1643023358358	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile0H9DBk"
+*** You are running in headless mode.
+1643023358687	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile0H9DBk\\search.json.mozlz4", (void 0)))
+1643023359980	Marionette	INFO	Listening on port 50242
+1643023360403	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gn-web-assets.api.bbc.com/bbcdotcom/assets/20220111-153539-f78def7d5-4.63.0/script/av/emp/adverts.js, line 131: TypeError: window.bbcdotcom.sections is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 3422 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 5820 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643023564031	geckodriver	INFO	Listening on 127.0.0.1:59132
+1643023567114	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilehGDaBN"
+*** You are running in headless mode.
+1643023567451	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilehGDaBN\\search.json.mozlz4", (void 0)))
+1643023568852	Marionette	INFO	Listening on port 59145
+1643023569192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 3858 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 5826 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 6966 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643023617309	geckodriver	INFO	Listening on 127.0.0.1:59434
+1643023620376	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileurPjMl"
+*** You are running in headless mode.
+1643023620776	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileurPjMl\\search.json.mozlz4", (void 0)))
+1643023622310	Marionette	INFO	Listening on port 59443
+1643023622446	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+1643023691080	geckodriver	INFO	Listening on 127.0.0.1:59598
+1643023694134	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileBCcAH1"
+*** You are running in headless mode.
+1643023694505	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileBCcAH1\\search.json.mozlz4", (void 0)))
+1643023695936	Marionette	INFO	Listening on port 59608
+1643023696206	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 1121 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 2166 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643023761842	geckodriver	INFO	Listening on 127.0.0.1:59914
+1643023764872	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileImWKx0"
+*** You are running in headless mode.
+1643023765375	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileImWKx0\\search.json.mozlz4", (void 0)))
+1643023767090	Marionette	INFO	Listening on port 59922
+1643023767538	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 4154 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 6902 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643023851969	geckodriver	INFO	Listening on 127.0.0.1:60181
+1643023854998	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile0SOUVT"
+*** You are running in headless mode.
+1643023855396	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile0SOUVT\\search.json.mozlz4", (void 0)))
+1643023856863	Marionette	INFO	Listening on port 60189
+1643023857065	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 779 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 3814 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643023917164	geckodriver	INFO	Listening on 127.0.0.1:60391
+1643023920208	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileFzRTQp"
+*** You are running in headless mode.
+1643023920569	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileFzRTQp\\search.json.mozlz4", (void 0)))
+1643023922080	Marionette	INFO	Listening on port 60399
+1643023922263	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+1643024008927	geckodriver	INFO	Listening on 127.0.0.1:59267
+1643024011986	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileSWwAmG"
+*** You are running in headless mode.
+1643024012372	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileSWwAmG\\search.json.mozlz4", (void 0)))
+1643024013785	Marionette	INFO	Listening on port 59275
+1643024014059	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 4963 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 5356 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 3104 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 3920 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 5581 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 7763 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 22696, MediaDecoderStateMachine #1] WARNING: 2c197d084a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 22696, MediaDecoderStateMachine #1] WARNING: 2c19a9fd2e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 22696, MediaDecoderStateMachine #1] WARNING: 2c1997fd580 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1643024260614	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1643024260640	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 3181 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 22696, MediaDecoderStateMachine #1] WARNING: 2c18e1f8900 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 22696, MediaDecoderStateMachine #1] WARNING: 2c18e1f8820 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 6135 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 7020 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643024371664	geckodriver	INFO	Listening on 127.0.0.1:60179
+1643024374711	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileDcsaAm"
+*** You are running in headless mode.
+1643024375095	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileDcsaAm\\search.json.mozlz4", (void 0)))
+1643024376749	Marionette	INFO	Listening on port 60187
+1643024376874	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 2829 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 6586 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 3182 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 3918 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643024551085	geckodriver	INFO	Listening on 127.0.0.1:60717
+1643024554146	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileUaDccz"
+*** You are running in headless mode.
+1643024554546	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileUaDccz\\search.json.mozlz4", (void 0)))
+1643024556093	Marionette	INFO	Listening on port 60725
+1643024556225	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 745 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 4792 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 4959 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643024747993	geckodriver	INFO	Listening on 127.0.0.1:61018
+1643024751050	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileYf5o5m"
+*** You are running in headless mode.
+1643024751470	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileYf5o5m\\search.json.mozlz4", (void 0)))
+1643024753035	Marionette	INFO	Listening on port 61026
+1643024753124	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 1080 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 7498 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 2251 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 4043 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 3394 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 2398 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 5519 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643025106228	geckodriver	INFO	Listening on 127.0.0.1:61752
+1643025109284	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileDBtPfq"
+*** You are running in headless mode.
+1643025109682	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileDBtPfq\\search.json.mozlz4", (void 0)))
+1643025111288	Marionette	INFO	Listening on port 61762
+1643025111364	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 4933 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 1639 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 6280 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643025233343	geckodriver	INFO	Listening on 127.0.0.1:62081
+1643025236407	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilesd7rF5"
+*** You are running in headless mode.
+1643025236810	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilesd7rF5\\search.json.mozlz4", (void 0)))
+1643025238522	Marionette	INFO	Listening on port 62089
+1643025238589	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gn-web-assets.api.bbc.com/bbcdotcom/assets/20220111-153539-f78def7d5-4.63.0/script/av/emp/adverts.js, line 131: TypeError: window.bbcdotcom.sections is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 5316 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 1630 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 2944 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 3602 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 3466 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 2274 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 4624 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 3667 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://gn-web-assets.api.bbc.com/bbcdotcom/assets/20220111-153539-f78def7d5-4.63.0/script/av/emp/adverts.js, line 131: TypeError: window.bbcdotcom.sections is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 7446 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643025954172	geckodriver	INFO	Listening on 127.0.0.1:62692
+1643025957231	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileFffIRF"
+*** You are running in headless mode.
+1643025957602	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileFffIRF\\search.json.mozlz4", (void 0)))
+1643025959037	Marionette	INFO	Listening on port 62700
+1643025983691	geckodriver	INFO	Listening on 127.0.0.1:62725
+1643025986772	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileM0pCwD"
+*** You are running in headless mode.
+1643025987103	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileM0pCwD\\search.json.mozlz4", (void 0)))
+1643025988520	Marionette	INFO	Listening on port 62733
+1643025988834	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=202635061, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=202635061, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=202635061, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=202635061 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=202635061 line 1 > eval, line 1: unreachable code after return statement
+1643026530161	geckodriver	INFO	Listening on 127.0.0.1:62895
+1643026533235	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileGUaTdV"
+*** You are running in headless mode.
+1643026533584	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileGUaTdV\\search.json.mozlz4", (void 0)))
+1643026534868	Marionette	INFO	Listening on port 62904
+1643026535304	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1309089335, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1309089335, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1309089335 line 1 > eval, line 1: unreachable code after return statement
+1643026726813	geckodriver	INFO	Listening on 127.0.0.1:63001
+1643026729895	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile0GtWun"
+*** You are running in headless mode.
+1643026730210	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile0GtWun\\search.json.mozlz4", (void 0)))
+1643026731544	Marionette	INFO	Listening on port 63010
+1643026731945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:64737
+1643026829988	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilexyyEVm"
+*** You are running in headless mode.
+1643026830308	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilexyyEVm\\search.json.mozlz4", (void 0)))
+1643026831616	Marionette	INFO	Listening on port 64745
+1643026832112	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643026891214	geckodriver	INFO	Listening on 127.0.0.1:64794
+1643026894286	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilecZHwOK"
+*** You are running in headless mode.
+1643026894609	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofilecZHwOK\\search.json.mozlz4", (void 0)))
+1643026895934	Marionette	INFO	Listening on port 64802
+1643026896348	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643027066356	geckodriver	INFO	Listening on 127.0.0.1:64887
+1643027069431	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileVa9YdS"
+*** You are running in headless mode.
+1643027069758	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileVa9YdS\\search.json.mozlz4", (void 0)))
+1643027071095	Marionette	INFO	Listening on port 64895
+1643027071498	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1750873675, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1750873675, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1750873675, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1750873675 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.iaa.gov.il/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1750873675 line 1 > eval, line 1: unreachable code after return statement
+1643027128930	geckodriver	INFO	Listening on 127.0.0.1:64982
+1643027131985	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileWlFpYl"
+*** You are running in headless mode.
+1643027132351	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileWlFpYl\\search.json.mozlz4", (void 0)))
+1643027134240	Marionette	INFO	Listening on port 64992
+1643027134661	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643027375462	geckodriver	INFO	Listening on 127.0.0.1:50834
+1643027378499	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile3WUuei"
+*** You are running in headless mode.
+1643027378828	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofile3WUuei\\search.json.mozlz4", (void 0)))
+1643027380272	Marionette	INFO	Listening on port 50842
+1643027380562	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://nav.files.bbci.co.uk/orbit/2.0.0-502.c3ab836/js/require.min.js, line 1: Error: Script error for "echo-12.17.1"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 7412 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 5514 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://buy.tinypass.com/api/v3/anon/template/loadTemplateContext?aid=tYOkq7qlAI
+JavaScript warning: https://pagead2.googlesyndication.com/bg/i8bj7ClzAoAUPYLrGgyCP56U_VUeYw5vpVcJR_BKyl0.js line 1 > eval line 4606 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643027969040	geckodriver	INFO	Listening on 127.0.0.1:51395
+1643027972107	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofiled72Ay0"
+*** You are running in headless mode.
+1643027972440	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofiled72Ay0\\search.json.mozlz4", (void 0)))
+1643027973801	Marionette	INFO	Listening on port 51403
+1643027974159	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643028111477	geckodriver	INFO	Listening on 127.0.0.1:51536
+1643028114564	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileTMt10B"
+*** You are running in headless mode.
+1643028114905	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileTMt10B\\search.json.mozlz4", (void 0)))
+1643028116246	Marionette	INFO	Listening on port 51544
+1643028116619	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643028155554	geckodriver	INFO	Listening on 127.0.0.1:51585
+1643028158602	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileRCWxYQ"
+*** You are running in headless mode.
+1643028159088	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gil\\AppData\\Local\\Temp\\rust_mozprofileRCWxYQ\\search.json.mozlz4", (void 0)))
+1643028160530	Marionette	INFO	Listening on port 51595
+1643028160663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session

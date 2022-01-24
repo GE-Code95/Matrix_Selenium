@@ -6,9 +6,9 @@ text = '''
     '''
 
 
-def summarizer():
+def summarizer(file):
     summarize = pipeline('summarization')
-    print(summarize(text, max_length=100, min_length=30, do_sample=False))
+    print(summarize(file, max_length=100, min_length=30, do_sample=False))
 
 
 def sentiment_analyzer(file):

@@ -2,11 +2,13 @@ import time
 from BaseExtractor import BaseExtractor
 from Constants import POSSIBLE_CONTENT_XPATH, POSSIBLE_HEADERS_XPATH
 from Summarizer import summarizer, sentiment_analyzer
+import os
+import json
 
 URL = 'https://www.bbc.com/'
 
 
-# TODO open news folder and put all parsed data to separate files | Fix search | Add summarizer features
+# TODO Add summarizer features | Fix some files not saving properly
 
 
 class NewsExtractor(BaseExtractor):
@@ -16,6 +18,18 @@ class NewsExtractor(BaseExtractor):
 
     def previous_page(self):
         self.execute_script("window.history.go(-1)")
+
+    def store_data(self, saved_file):
+        file_name = (list(saved_file.values())[0])
+        directory = 'saved_news'
+        parent_dir = os.getcwd()
+        path = os.path.join(parent_dir, directory)
+        try:
+            os.mkdir(path)
+        except FileExistsError:
+            pass
+        with open(f'{path}/{file_name}.json', "w+") as file:
+            json.dump(saved_file, file)
 
     def get_data(self):
         ignore = ['sport', 'ideas', 'in-pictures']
@@ -31,18 +45,22 @@ class NewsExtractor(BaseExtractor):
                 self.get(url)
                 header = self.get_correct_element(POSSIBLE_HEADERS_XPATH)
                 content = self.get_correct_element_content(POSSIBLE_CONTENT_XPATH)
-                print(header)
-                print(content)
-
+                data = {"Header": f"{header}", "URL": f"{url}", "Content": f'{content}'}
+                self.store_data(data)
                 self.previous_page()
 
-    def store_data(self, data_file):
-        pass
+    @staticmethod
+    def summarize():
+        directory = os.getcwd()
+        path = directory.join('/saved_news')
+        for file in path:
+            summarizer(file)
 
 
 def main():
     news = NewsExtractor()
-    news.get_data()
+    #news.get_data()
+    news.summarize()
     news.shutdown()
 
 
