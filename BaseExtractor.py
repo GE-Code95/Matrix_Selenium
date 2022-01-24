@@ -44,13 +44,14 @@ class BaseExtractor(webdriver.Firefox):
         WebDriverWait(self, 15).until(
             EC.element_to_be_clickable((By.XPATH, xpath))).click()
 
+
     def get_any_elements_by_xpath(self, xpath):
         """
         find any elements specified by the XPath string
         :param xpath: the XPath string to be found
         :return: all WebElement objects related.
         """
-        WebDriverWait(self, 10).until(
+        return WebDriverWait(self, 10).until(
             EC.visibility_of_any_elements_located((By.XPATH, xpath)))
 
     def get_table(self, xpath):
@@ -59,7 +60,7 @@ class BaseExtractor(webdriver.Firefox):
         :param xpath: the XPath string to be found
         :return: all WebElement objects related which are visible.
         """
-        WebDriverWait(self, 10).until(
+        return WebDriverWait(self, 10).until(
             EC.visibility_of_element_located((By.XPATH, xpath)))
 
     def get_element_text_by_xpath(self, xpath):
@@ -70,6 +71,16 @@ class BaseExtractor(webdriver.Firefox):
         """
         element = WebDriverWait(self, 10).until(EC.visibility_of_element_located((By.XPATH, xpath)))
         return element.text
+
+    def get_elements_text_by_xpath(self, xpath):
+        """
+        gets a string by using the element.text attribute
+        :param xpath: the XPath strings to be found
+        :return: strings according to XPath search
+        """
+        elements = WebDriverWait(self, 10).until(EC.visibility_of_all_elements_located((By.XPATH, xpath)))
+        lines = list(map(lambda element: element.text, elements))
+        return '\n'.join(lines)
 
     def get_correct_element(self, xpaths):
         """
@@ -103,16 +114,6 @@ class BaseExtractor(webdriver.Firefox):
         # Throw exception about not finding any news headers
         raise
 
-    def get_elements_text_by_xpath(self, xpath):
-        """
-        gets a string by using the element.text attribute
-        :param xpath: the XPath strings to be found
-        :return: strings according to XPath search
-        """
-        elements = WebDriverWait(self, 10).until(EC.visibility_of_all_elements_located((By.XPATH, xpath)))
-        lines = list(map(lambda element: element.text, elements))
-        return '\n'.join(lines)
-
     def get_element_text_by_id(self, id):
         """
         gets a string by using the element.text attribute
@@ -144,7 +145,6 @@ class BaseExtractor(webdriver.Firefox):
     def get_data(self):
         """
         Implemented in each class - getting data according the class
-        :return:
         """
         raise NotImplementedError()
 
@@ -164,18 +164,20 @@ class BaseExtractor(webdriver.Firefox):
                 data = json.load(f)
                 search_result = re.search(pattern, data, flags=re.IGNORECASE)
                 if search_result is not None:
-                    print('Match found')
+                    print(f'Match found in file {files}')
                 else:
                     print('Match not found')
                 f.close()
             else:
                 continue
 
+    def store_data(self, data_file):
+        """
+        Implemented in each class - storing the data to the file system.
+        """
+        raise NotImplementedError()
+
     def shutdown(self):
         "Terminate all instances and quits the webdriver"
         self.close()
         self.quit()
-
-
-if __name__ == '__main__':
-    pass

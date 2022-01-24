@@ -6,6 +6,7 @@ import json
 import schedule
 from schedule import every, repeat
 from datetime import datetime
+import os
 
 URL = 'https://www.iaa.gov.il/en/airports/ben-gurion/flight-board/'
 
@@ -15,12 +16,29 @@ class FlightExtractor(BaseExtractor):
     def __init__(self):
         super().__init__()
 
+    def store_data(self, saved_file):
+        directory = 'saved_flights'
+        parent_dir = os.getcwd()
+        path = os.path.join(parent_dir, directory)
+        try:
+            os.mkdir(path)
+        except FileExistsError:
+            # directory already exists
+            pass
+        print(path)
+        now = datetime.now()
+        dt_string = now.strftime("%m-%d-%y_%H-%M-%S")
+        # f'C:/Users/Gil/PycharmProjects/Matrix_Selenium/ft{dt_string}.json'
+        with open(path.join(f'ft{dt_string}.json'), "w+") as file:
+            json.dump(saved_file, file)
+
     @repeat(every(1).minutes)
     def get_data(self):
         self.get(URL)
         # Get the table headers
-        table_headers = self.get_any_elements_by_xpath("//table[@id='flight_board-arrivel_table']//thead//tr//th")
+        #table_headers = self.get_any_elements_by_xpath("//table[@id='flight_board-arrivel_table']//thead//tr//th")
         # Put headers names into a list
+        table_headers = self.get_any_elements_by_xpath("//table[@id='flight_board-arrivel_table']//thead//tr//th")
         columns = list(map(lambda name: name.text, table_headers))
         # Click on show more until button is gone
         while True:
@@ -40,25 +58,17 @@ class FlightExtractor(BaseExtractor):
         # Convert table to json.
         flights_json = df_flights.to_json(orient='table', indent=4)
         # Storing the data extracted
-        now = datetime.now()
+        self.store_data(flights_json)
+        '''now = datetime.now()
         dt_string = now.strftime("%m-%d-%y_%H-%M-%S")
         with open(f'C:/Users/Gil/PycharmProjects/Matrix_Selenium/ft{dt_string}.json', "w+") as file:
             json.dump(flights_json, file)
-        self.refresh()
-
-    def search(self, expression, file_type='.json'):
-        self.search(expression, file_type)
+        self.refresh()'''
 
 
 def main():
     flight = FlightExtractor()
-    flight.search('Amsterdam')
-    flight.shutdown()
-    '''
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
-    '''
+    flight.get_data()
 
 
 if __name__ == '__main__':

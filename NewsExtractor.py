@@ -36,14 +36,15 @@ class NewsExtractor(BaseExtractor):
 
                 self.previous_page()
 
-    def search(self, expression, file_type='.txt'):
-        self.search(expression, file_type)
+    def store_data(self, data_file):
+        pass
 
 
 def main():
     news = NewsExtractor()
     news.get_data()
     news.shutdown()
+
 
 if __name__ == '__main__':
     main()
