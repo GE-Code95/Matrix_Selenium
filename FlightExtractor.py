@@ -14,9 +14,16 @@ URL = 'https://www.iaa.gov.il/en/airports/ben-gurion/flight-board/'
 class FlightExtractor(BaseExtractor):
 
     def __init__(self):
+        """
+            Initialize FlightExtractor Class calling super
+        """
         super().__init__()
 
     def store_data(self, saved_file):
+        """
+        After extraction store the data in the file system.
+        :param saved_file: the file to be saved to the system
+        """
         directory = 'saved_flights'
         parent_dir = os.getcwd()
         path = os.path.join(parent_dir, directory)
@@ -31,6 +38,9 @@ class FlightExtractor(BaseExtractor):
             json.dump(saved_file, file)
 
     def get_data(self):
+        """
+        the main function to extract the data parsing table names and its contents.
+        """
         self.get(URL)
         # Get the table headers
         # Put headers names into a list
@@ -55,4 +65,3 @@ class FlightExtractor(BaseExtractor):
         flights_json = df_flights.to_json(orient='table', indent=4)
         # Storing the data extracted
         self.store_data(flights_json)
-

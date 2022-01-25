@@ -27,6 +27,19 @@ def keyboard_callback(inp):
 
 
 def main():
+    """
+    From here we run the two classes, in order to run one of them (of course) just comment the other one.
+
+    NewsExtractor - After using get_data() change the path variable until saved_news to your machine.
+    in search just type the expression you want and run it.
+    to summarize and get sentiment analysis put the path.
+    shutdown - closes firefox driver and all its instances (if exist).
+
+    Flight Extractor - the table on the website is updated every 1 minute so I scheduled it to run every minute and
+    get a fresh new table every time in order for it to stop hit E/e
+    after it stopped you can use the search function exactly like NewsExtractor.
+    shutdown - same as NewsExtractor
+    """
     global stop_flag
     """
     news = NewsExtractor()
